@@ -16,13 +16,6 @@ A sleek, modern real-time chat application built with **Node.js**, **Express**, 
 
 ---
 
-## Live Demo
-
-Check out the live deployed version of the app here:  
-[Your Live Chat App URL](https://your-live-url.com)
-
----
-
 ## Technologies Used
 
 - **Frontend:** HTML, CSS (with CSS variables and animations), Vanilla JavaScript
@@ -31,18 +24,3 @@ Check out the live deployed version of the app here:
 - **Avatar Generation:** Dicebear Avatars API
 
 ---
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or later recommended)
-- npm (comes with Node.js)
-
-### Installation
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/your-username/modern-chat-app.git
-   cd modern-chat-app
