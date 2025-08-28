@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Chat App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Login Screen -->
+  <div id="login-screen" class="overlay">
+    <div class="login-box glass">
+      <h1>Welcome 👋</h1>
+      <p>Enter your name, room ID, and select an avatar</p>
+
+      <!-- Username -->
+      <label for="username-input">Your Name</label>
+      <input type="text" id="username-input" placeholder="Enter your name" />
+
+      <!-- Room ID -->
+      <label for="room-input">Room ID</label>
+      <input type="text" id="room-input" placeholder="Enter room ID" />
+
+      <!-- Avatar Selection -->
+      <label>Select an Avatar</label>
+      <div class="avatar-scroll" id="avatar-scroll"></div>
+
+      <button id="join-btn">Join Chat</button>
+    </div>
+  </div>
+
+  <!-- Chat Screen -->
+  <div class="container hidden" id="chat-screen">
+    <div class="users glass">
+      <h2>Online Users</h2>
+      <ul id="users"></ul>
+    </div>
+    <div class="chat glass">
+      <h2 id="room-title">Group Chat</h2>
+      <ul id="messages"></ul>
+      <div id="typing"></div>
+      <form id="chat-form">
+        <input id="message-input" autocomplete="off" placeholder="Type a message..." />
+        <button>Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
