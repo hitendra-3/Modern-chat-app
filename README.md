@@ -2,7 +2,7 @@
 
 A sleek, modern real-time chat application built with **Node.js**, **Express**, and **Socket.IO** that supports user avatar selection, multiple chat rooms, typing indicators, and a responsive UI with a glassmorphism design.
 
----
+
 
 ## Features
 
@@ -14,7 +14,6 @@ A sleek, modern real-time chat application built with **Node.js**, **Express**, 
 - Responsive and modern UI with smooth animations
 - Clean and intuitive interface using CSS variables and glass effect
 
----
 
 ## Technologies Used
 
@@ -23,4 +22,4 @@ A sleek, modern real-time chat application built with **Node.js**, **Express**, 
 - **Real-time Communication:** Socket.IO
 - **Avatar Generation:** Dicebear Avatars API
 
----
+
